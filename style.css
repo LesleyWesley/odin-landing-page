@@ -1,0 +1,106 @@
+body {
+    background-color: #1a6675;
+    color: #fbdade;
+    font-family: "Playfair Display", serif;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem;
+}
+
+header span {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color:#fbdade;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 5rem 0;
+    padding: 0 10rem;
+}
+
+
+h1 {
+    font-family: "Limelight", cursive;
+    font-size: 56px;
+}
+
+.hero-text p {
+    width: 75%;
+    margin-bottom: 2rem;
+}
+
+.sign-up {
+    background-color: #b81365;
+    padding: .5rem 3rem;
+    border-radius: .5rem;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.hero img {
+    width: 500px;
+    height: auto;
+}
+
+.thumbnail-section {
+    background-color: #fbdade;
+    color: #1a6675;
+    padding: 3rem 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.thumbnail-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 3rem;
+}
+
+.thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.thumbnail img {
+    width: 10rem;
+    height: 7rem;
+    border-radius: 1rem;
+    border: 2px #b81365 solid;
+}
+
+.thumbnail p {
+    text-align: center;
+    width: 90%;
+}
+
+.quote-section {
+    padding: 5rem 10rem;
+}
