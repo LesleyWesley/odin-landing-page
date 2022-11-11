@@ -3,7 +3,7 @@ body {
     color: #fbdade;
     font-family: "Playfair Display", serif;
     margin: 0;
-    padding: 1rem 0;
+    padding: 1rem 0 0 0;
 }
 
 header {
@@ -102,5 +102,58 @@ h1 {
 }
 
 .quote-section {
-    padding: 5rem 10rem;
+    padding: 5rem 20rem;
+    background-color: #b81365;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.quote-section p {
+    font-size: 36px;
+    font-style: italic;
+    line-height: 3rem;
+}
+
+.quote-section span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cta-section {
+    background-color: #fbdade;
+    padding: 6rem 4rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    background-color: #1a6675;
+    width: 50%;
+    padding: 1rem 3rem;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-weight: bold;
+    font-family: "Limelight", cursive;
+    margin-bottom: 0;
+}
+
+.cta-container a {
+    border: 2px #fbdade solid;
+    border-radius: .5rem;
+    padding: .5rem 2rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
